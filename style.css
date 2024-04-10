@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(230, 169, 112);
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+  .card {
+    align-items: center;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #c18888;
+    background-clip: border-box;
+    border: 2px solid rgba(0, 25, 253, 0.13);
+    border-radius: 0.25rem;
+}
+
+.card-job {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #c57575;
+  background-clip: border-box;
+  border: 2px solid rgba(0, 25, 253, 0.13);
+}
